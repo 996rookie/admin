@@ -166,7 +166,7 @@ export default {
             if (this.selectedkeys.length > 0) {
                 this.addCateForm.cat_pid = this.selectedkeys[this.selectedkeys.length - 1]
                 this.addCateForm.cat_level = this.selectedkeys.length
-                return true
+                return false
             } else {
                 this.addCateForm.cat_pid = 0
                 this.addCateForm.cat_level = 0
