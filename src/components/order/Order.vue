@@ -62,11 +62,6 @@
             </span>
         </el-dialog>
         <el-dialog title="物流进度" :visible.sync="propressVisible" width="50%">
-            <!-- <el-timeline>
-                <el-timeline-item v-for="(activity, index) in progressInfo" :key="index" :timestamp="activity.time">
-                    {{activity.context}}
-                </el-timeline-item>
-            </el-timeline> -->
         </el-dialog>
     </div>
 </template>
